@@ -1,0 +1,20 @@
+cci flow run
+dev
+cci task run list_changes --org dev
+cci task run list_changes --org dev -o exclude "Profile:"
+Delivery (Auto Number record label name) 
+Create a new custom tab for this object
+Scheduled Date (Date/Time)
+Status (Picklist)
+Requested
+Scheduled
+Completed
+Canceled
+Supplier (Lookup to Account)
+Delivery Item
+Delivery (Lookup to Delivery)
+Food Storage (Picklist)
+Non-refrigerated
+Frozen
+Refrigerated
+Food Expiration Date (Date)
